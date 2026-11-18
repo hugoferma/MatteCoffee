@@ -119,3 +119,129 @@ hr {
     border-radius: 0.5rem;
     object-fit: cover;
 }
+
+.botao-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate(0, -50%);
+}
+
+button {
+    padding: 1rem;;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #F4D9A0;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.receitas-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receitas-titulo {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.receitas-subtitulo {
+    color: #FFF2E780;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.receitas-card-container {
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.receitas-card {
+    background-color: #33291d;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+}
+
+.receitas-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.receitas-card-header-titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receitas-titulo {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.receitas-avaliacao {
+    color: #fff2e780;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.receitas-descricao {
+    color: #fff2e780;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.receitas-autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.receitas-autor > img {
+    width: 1.5rem;
+}
+
+.receitas-autor-nome {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #33291d;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-copy {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-autor {
+    color: #fff2e780;
+    font-size: 1rem;
+    font-weight: 500;
+}
